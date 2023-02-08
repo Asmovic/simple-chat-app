@@ -1,4 +1,4 @@
-const socket = io.connect("http://localhost:3000", { transports: ['websocket'] });
+const socket = io.connect("https://chat-server-i8bt.onrender.com", { transports: ['websocket'] });
 
 const message = document.getElementById('message');
 const messages = document.getElementById('messages');
